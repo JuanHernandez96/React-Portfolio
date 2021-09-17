@@ -4,7 +4,7 @@ import Content from './Components/Content/index.js'
 function App() {
   return (
     <div>
-      <Content></Content>
+      <Content />
     </div>
   );
 }
