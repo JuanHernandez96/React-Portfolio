@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from '../Nav';
+import Footer from '../Footer';
 
+// page dedicated to contacting me with false information
 function ContactMe() {
     return(
    
@@ -11,6 +13,7 @@ function ContactMe() {
             <p> Email: juanh@Aol.com </p>
             <p> Phone: 555-555-5555 (hablamos español)</p>
             <p> GitHub:  <a href="https://github.com/JuanHernandez96">  https://github.com/JuanHernandez96</a></p>
+            <Footer></Footer>
         </div>
 
 
