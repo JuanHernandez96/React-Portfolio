@@ -4,7 +4,7 @@ import Projects from './Components/Projects/index.js';
 import Contact from './Components/Contact/index';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-
+// 
 function App() {
   return (
     <main>
