@@ -1,19 +1,19 @@
 import './App.css';
-import About from './Components/About';
+import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects/index.js';
-import Contact from './Components/Contact/index';
+import ContactMe from './Components/ContactMe/index';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-// 
+// routes to move from and to pages
 function App() {
   return (
     <main>
       <BrowserRouter>
       <Switch>
-      <Route exact path='/' component={About} />
-      <Route exact path='/About' component={About} />
+      <Route exact path='/' component={AboutMe} />
+      <Route exact path='/AboutMe' component={AboutMe} />
       <Route exact path='/Projects' component={Projects} />
-      <Route exact path='/Contact' component={Contact} />
+      <Route exact path='/ContactMe' component={ContactMe} />
      </Switch>
      </BrowserRouter>
     </main>
